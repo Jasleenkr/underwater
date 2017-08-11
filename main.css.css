@@ -1,0 +1,74 @@
+body{
+    margin:0px;
+    overflow: hidden;
+}
+
+/*#container:hover img #fish_1,#scuba,#octopus {
+    
+}*/  
+
+.container:hover .img1
+{
+    transform: translate(900px,100px);
+}
+.container:hover .img2{
+    transform: translate(500px,-150px) scale(2,2);
+}
+.container:hover .img3{
+    transform: translate(500px,500px);
+}
+
+#water{
+    height: 100px;
+    width:100%;
+    
+}
+#fish_1 img{
+     
+    background-size: 100% 100%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    height: 150px;
+    width: 150px;
+    transition:5s;
+}
+/*#fish_1:hover img{
+    transform: translate(900px,100px);
+}*/
+#plant img{
+     background-size: 100% 100%;
+    position: absolute;
+    right: 10%;
+    bottom: 22%;
+    height: 150px;
+    width: 150px;
+}
+
+#scuba img{
+     background-size: 100% 100%;
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    height: 200px;
+    width: 300px;
+    transition: 6s;
+}
+/*#scuba:hover img{
+    transform: translate(500px,-150px) scale(2,2);
+}*/
+#octopus img{
+     background-size: 100% 100%;
+    position: absolute;
+    right: 30%;
+    top: 18%;
+    height: 150px;
+    width: 150px;
+    transition: 6s;
+}
+/*#octopus:hover img{
+    transform: translate(500px,500px) scale(2,2);
+}*/
+h2{
+    text-shadow: 5px 5px 5px blue;
+}
